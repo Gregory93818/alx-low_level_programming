@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints the first 52 fibonacci numbers
- * Return: nothing!
+ * Return: Nothing!
  */
 int main(void)
 {
@@ -18,10 +18,10 @@ int main(void)
 		{
 			k += j;
 			j = k - j;
-			printf("%ld", k);
+			printf(", %ld", k);
 		}
-		i++;
+		++i;
 	}
-	printf('\n');
+	printf("/n");
 	return (0);
 }
